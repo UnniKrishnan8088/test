@@ -1,0 +1,11 @@
+.card-container {
+  margin-top: 10.36vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.08vw; //40
+
+  @media (max-width: 575.98px) {
+    grid-template-columns: 1fr;
+    gap: 6.94vw;
+  }
+}

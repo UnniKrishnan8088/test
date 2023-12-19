@@ -1,0 +1,17 @@
+footer {
+  color: white;
+  text-align: center;
+  p {
+    margin-top: 10.41vw;
+    font-size: 0.98vw;
+    font-weight: 300;
+    @media (max-width: 991.98px) {
+      font-size: 1.91vw;
+      margin-top: 20.16vw;
+    }
+    @media (max-width: 575.98px) {
+      font-size: 3.29vw;
+      margin-top: 34.72vw;
+    }
+  }
+}

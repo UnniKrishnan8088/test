@@ -1,0 +1,24 @@
+.card {
+    width: 100%;
+    .img-box {
+        img {
+            width: 100%;
+            height: 19.79vw;
+            @media (max-width: 575.98px) {
+                height: 66.14vw;
+            }
+        }
+    }
+    p {
+        font-size: 1.45vw; //28
+        color: white;
+        text-align: center;
+        margin-top: 0.78vw;
+        letter-spacing: 0.01vw;
+        font-weight: 200;
+        @media (max-width: 575.98px) {
+            font-size: 4.86vw;
+            margin-top: 2.6vw;
+        }
+    }
+}
